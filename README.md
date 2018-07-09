@@ -5,15 +5,18 @@
 
 ## 示例
 
-- ![WKWebView](https://github.com/Ethan561/HDEmptyView/blob/master/%E7%A4%BA%E4%BE%8Bgif%E5%9B%BE%E7%89%87/webViewEmptyGIF.gif)
-- ![UITableView](https://github.com/Ethan561/HDEmptyView/blob/master/%E7%A4%BA%E4%BE%8Bgif%E5%9B%BE%E7%89%87/tableViewEmptyGIF.gif)
-- ![UICollectionView](https://github.com/Ethan561/HDEmptyView/blob/master/%E7%A4%BA%E4%BE%8Bgif%E5%9B%BE%E7%89%87/collectionViewEmptyGIF.gif)
+- WKWebView
+![WKWebView](https://github.com/Ethan561/HDEmptyView/blob/master/%E7%A4%BA%E4%BE%8Bgif%E5%9B%BE%E7%89%87/webViewEmptyGIF.gif)
+- UITableView
+![UITableView](https://github.com/Ethan561/HDEmptyView/blob/master/%E7%A4%BA%E4%BE%8Bgif%E5%9B%BE%E7%89%87/tableViewEmptyGIF.gif)
+- UICollectionView
+![UICollectionView](https://github.com/Ethan561/HDEmptyView/blob/master/%E7%A4%BA%E4%BE%8Bgif%E5%9B%BE%E7%89%87/collectionViewEmptyGIF.gif)
 
 
 ## 要求
 
 - iOS 9.0+
-- Xcode 8.0+
+- Xcode 9.0+
 - Swift4 (HDEmptyView 4.x)
 
 ## 使用方法

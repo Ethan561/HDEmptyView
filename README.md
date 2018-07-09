@@ -86,3 +86,4 @@ tableView.ly_showEmptyView()
 
 >注意事项:是否自动显隐EmptyView的参数 autoShowEmptyView 默认设置是true，列表视图会根据界面cell的count数量自动显隐空界面。当设置成false时只能手动调用 ly_showEmptyView() 和 ly_hideEmptyView() 方法进行显隐操作
 
+[简书详细介绍地址](https://www.jianshu.com/p/6f2760647b77)

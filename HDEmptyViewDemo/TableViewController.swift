@@ -11,7 +11,6 @@ import UIKit
 class TableViewController: UIViewController ,UITableViewDataSource, UITableViewDelegate{
 
     @IBOutlet weak var tableView: UITableView!
-    
     @IBAction func deleteAction(_ sender: Any) {
         if items.count > 0 {
             items.removeLast()
@@ -39,10 +38,10 @@ class TableViewController: UIViewController ,UITableViewDataSource, UITableViewD
             self.automaticallyAdjustsScrollViewInsets = false
         }
         
-        let leftBarBtn = UIButton.init(type: UIButtonType.custom)
+        let leftBarBtn = UIButton.init(type: UIButton.ButtonType.custom)
         leftBarBtn.frame = CGRect.init(x: 0, y: 0, width: 45, height: 45)
-        leftBarBtn.setImage(UIImage.init(named: "service_highlight"), for: UIControlState.normal)
-        leftBarBtn.addTarget(self, action: #selector(changeAction(_:)), for: UIControlEvents.touchUpInside)
+        leftBarBtn.setImage(UIImage.init(named: "service_highlight"), for: UIControl.State.normal)
+        leftBarBtn.addTarget(self, action: #selector(changeAction(_:)), for: UIControl.Event.touchUpInside)
         //
         let leftBarButtonItem: UIBarButtonItem = UIBarButtonItem.init(customView: leftBarBtn)
         self.navigationItem.setRightBarButton(leftBarButtonItem, animated: false)
@@ -54,7 +53,7 @@ class TableViewController: UIViewController ,UITableViewDataSource, UITableViewD
     //自定义空数据界面显示
     func setupMyEmptyView() {
         let emptyView: MyEmptyView = Bundle.main.loadNibNamed("MyEmptyView", owner: self, options: nil)?.last as! MyEmptyView
-        emptyView.reloadBtn.addTarget(self, action: #selector(reloadBtnAction(_:)), for: UIControlEvents.touchUpInside)
+        emptyView.reloadBtn.addTarget(self, action: #selector(reloadBtnAction(_:)), for: UIControl.Event.touchUpInside)
         emptyView.frame = view.bounds
         //空数据界面显示
         let emptyV:HDEmptyView = HDEmptyView.emptyViewWithCustomView(customView: emptyView) as! HDEmptyView
@@ -101,7 +100,7 @@ class TableViewController: UIViewController ,UITableViewDataSource, UITableViewD
         return true
     }
     
-     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
             items.removeLast()
             tableView.deleteRows(at: [indexPath], with: .automatic)

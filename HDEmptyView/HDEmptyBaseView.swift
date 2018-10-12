@@ -76,7 +76,7 @@ public class HDEmptyBaseView: UIView {
         if (view?.isKind(of: UIScrollView.classForCoder()))! {
 //            self.width = view!.width
 //            self.height = view!.height
-            self.frame = CGRect.init(x: 0, y: 0, width: view!.width, height: view!.height)
+            self.frame = CGRect.init(x: 0, y: 0, width: view!.ly_width, height: view!.ly_height)
             
         }
         self.setupSubviews()
@@ -93,8 +93,8 @@ public class HDEmptyBaseView: UIView {
             return;
         }
         if newSuperview != nil {
-            self.width = newSuperview!.width
-            self.height = newSuperview!.height
+            self.ly_width = newSuperview!.ly_width
+            self.ly_height = newSuperview!.ly_height
         }
     }
     

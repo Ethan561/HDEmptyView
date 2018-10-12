@@ -44,7 +44,7 @@ extension UIScrollView {
         self.ly_emptyView?.isHidden = false
         //始终保持显示在最上层
         if self.ly_emptyView != nil {
-            self.bringSubview(toFront: self.ly_emptyView!)
+            self.bringSubviewToFront(self.ly_emptyView!)
         }
     }
     
@@ -140,23 +140,23 @@ extension UITableView:SelfAware {
     
 
     //section
-    @objc  func ly_insertSections(_ sections: NSIndexSet, with animation: UITableViewRowAnimation) {
+    @objc  func ly_insertSections(_ sections: NSIndexSet, with animation: UITableView.RowAnimation) {
         ly_insertSections(sections, with: animation)
         getDataAndSet()
     }
     
-    @objc  func ly_deleteSections(_ sections: NSIndexSet, with animation: UITableViewRowAnimation) {
+    @objc  func ly_deleteSections(_ sections: NSIndexSet, with animation: UITableView.RowAnimation) {
         ly_deleteSections(sections, with: animation)
         getDataAndSet()
     }
     
     //row
-    @objc  func ly_insertRowsAtIndexPaths(at indexPaths: [IndexPath], with animation: UITableViewRowAnimation){
+    @objc  func ly_insertRowsAtIndexPaths(at indexPaths: [IndexPath], with animation: UITableView.RowAnimation){
         ly_insertRowsAtIndexPaths(at: indexPaths, with: animation)
         getDataAndSet()
     }
     
-    @objc func ly_deleteRowsAtIndexPaths(at indexPaths: [IndexPath], with animation: UITableViewRowAnimation){
+    @objc func ly_deleteRowsAtIndexPaths(at indexPaths: [IndexPath], with animation: UITableView.RowAnimation){
         ly_deleteRowsAtIndexPaths(at: indexPaths, with: animation)
         getDataAndSet()
     }

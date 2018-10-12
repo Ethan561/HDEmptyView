@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D66776EA20B68FDC00338D47 /* HDRunTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66776E920B68FDC00338D47 /* HDRunTime.swift */; };
 		D66B8C2020BD1C6600AAC2BE /* MyEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66B8C1F20BD1C6600AAC2BE /* MyEmptyView.swift */; };
 		D66B8C2220BD1C7600AAC2BE /* MyEmptyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D66B8C2120BD1C7600AAC2BE /* MyEmptyView.xib */; };
 		D66DF97D20AEA97700EAD4B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66DF97C20AEA97700EAD4B7 /* AppDelegate.swift */; };
@@ -17,12 +16,13 @@
 		D66DF98720AEA97800EAD4B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D66DF98520AEA97800EAD4B7 /* LaunchScreen.storyboard */; };
 		D66DF99220AEA97800EAD4B7 /* HDEmptyViewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66DF99120AEA97800EAD4B7 /* HDEmptyViewDemoTests.swift */; };
 		D66DF99D20AEA97800EAD4B7 /* HDEmptyViewDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66DF99C20AEA97800EAD4B7 /* HDEmptyViewDemoUITests.swift */; };
-		D66DF9AC20AEB03000EAD4B7 /* UIView+Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66DF9AB20AEB02F00EAD4B7 /* UIView+Position.swift */; };
-		D66DF9AE20AEB13800EAD4B7 /* UIScrollView+Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66DF9AD20AEB13800EAD4B7 /* UIScrollView+Empty.swift */; };
-		D66DF9B020AEB53B00EAD4B7 /* HDEmptyBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66DF9AF20AEB53B00EAD4B7 /* HDEmptyBaseView.swift */; };
-		D66DF9B220AEB57500EAD4B7 /* HDEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66DF9B120AEB57500EAD4B7 /* HDEmptyView.swift */; };
 		D67AF5A020BBA929002DAB12 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67AF59F20BBA929002DAB12 /* WebViewController.swift */; };
 		D67AF5A320BBA9D6002DAB12 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D67AF5A220BBA9D6002DAB12 /* WebKit.framework */; };
+		D6DB3BE021707C5C0075949D /* HDEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DB3BDB21707C5C0075949D /* HDEmptyView.swift */; };
+		D6DB3BE121707C5C0075949D /* HDRunTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DB3BDC21707C5C0075949D /* HDRunTime.swift */; };
+		D6DB3BE221707C5C0075949D /* UIView+Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DB3BDD21707C5C0075949D /* UIView+Position.swift */; };
+		D6DB3BE321707C5C0075949D /* UIScrollView+Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DB3BDE21707C5C0075949D /* UIScrollView+Empty.swift */; };
+		D6DB3BE421707C5C0075949D /* HDEmptyBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DB3BDF21707C5C0075949D /* HDEmptyBaseView.swift */; };
 		D6F8644F20B69B18006B861D /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F8644E20B69B18006B861D /* TableViewController.swift */; };
 		D6F8645120B6A6C0006B861D /* CollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F8645020B6A6C0006B861D /* CollectionVC.swift */; };
 /* End PBXBuildFile section */
@@ -45,7 +45,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D66776E920B68FDC00338D47 /* HDRunTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDRunTime.swift; sourceTree = "<group>"; };
 		D66B8C1F20BD1C6600AAC2BE /* MyEmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyEmptyView.swift; sourceTree = "<group>"; };
 		D66B8C2120BD1C7600AAC2BE /* MyEmptyView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyEmptyView.xib; sourceTree = "<group>"; };
 		D66DF97920AEA97700EAD4B7 /* HDEmptyViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HDEmptyViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,12 +60,13 @@
 		D66DF99820AEA97800EAD4B7 /* HDEmptyViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HDEmptyViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D66DF99C20AEA97800EAD4B7 /* HDEmptyViewDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDEmptyViewDemoUITests.swift; sourceTree = "<group>"; };
 		D66DF99E20AEA97800EAD4B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D66DF9AB20AEB02F00EAD4B7 /* UIView+Position.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Position.swift"; sourceTree = "<group>"; };
-		D66DF9AD20AEB13800EAD4B7 /* UIScrollView+Empty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Empty.swift"; sourceTree = "<group>"; };
-		D66DF9AF20AEB53B00EAD4B7 /* HDEmptyBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDEmptyBaseView.swift; sourceTree = "<group>"; };
-		D66DF9B120AEB57500EAD4B7 /* HDEmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDEmptyView.swift; sourceTree = "<group>"; };
 		D67AF59F20BBA929002DAB12 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		D67AF5A220BBA9D6002DAB12 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		D6DB3BDB21707C5C0075949D /* HDEmptyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HDEmptyView.swift; sourceTree = "<group>"; };
+		D6DB3BDC21707C5C0075949D /* HDRunTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HDRunTime.swift; sourceTree = "<group>"; };
+		D6DB3BDD21707C5C0075949D /* UIView+Position.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Position.swift"; sourceTree = "<group>"; };
+		D6DB3BDE21707C5C0075949D /* UIScrollView+Empty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Empty.swift"; sourceTree = "<group>"; };
+		D6DB3BDF21707C5C0075949D /* HDEmptyBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HDEmptyBaseView.swift; sourceTree = "<group>"; };
 		D6F8644E20B69B18006B861D /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		D6F8645020B6A6C0006B861D /* CollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -121,9 +121,9 @@
 		D66DF97B20AEA97700EAD4B7 /* HDEmptyViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D6DB3BDA21707C5C0075949D /* HDEmptyView */,
 				D66B8C1F20BD1C6600AAC2BE /* MyEmptyView.swift */,
 				D66B8C2120BD1C7600AAC2BE /* MyEmptyView.xib */,
-				D66DF9AA20AEA99C00EAD4B7 /* HDEmptyView */,
 				D66DF97C20AEA97700EAD4B7 /* AppDelegate.swift */,
 				D66DF97E20AEA97700EAD4B7 /* ViewController.swift */,
 				D67AF59F20BBA929002DAB12 /* WebViewController.swift */,
@@ -155,18 +155,6 @@
 			path = HDEmptyViewDemoUITests;
 			sourceTree = "<group>";
 		};
-		D66DF9AA20AEA99C00EAD4B7 /* HDEmptyView */ = {
-			isa = PBXGroup;
-			children = (
-				D66DF9AB20AEB02F00EAD4B7 /* UIView+Position.swift */,
-				D66DF9AD20AEB13800EAD4B7 /* UIScrollView+Empty.swift */,
-				D66DF9AF20AEB53B00EAD4B7 /* HDEmptyBaseView.swift */,
-				D66DF9B120AEB57500EAD4B7 /* HDEmptyView.swift */,
-				D66776E920B68FDC00338D47 /* HDRunTime.swift */,
-			);
-			path = HDEmptyView;
-			sourceTree = "<group>";
-		};
 		D67AF5A120BBA9D6002DAB12 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +162,18 @@
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
+		};
+		D6DB3BDA21707C5C0075949D /* HDEmptyView */ = {
+			isa = PBXGroup;
+			children = (
+				D6DB3BDB21707C5C0075949D /* HDEmptyView.swift */,
+				D6DB3BDC21707C5C0075949D /* HDRunTime.swift */,
+				D6DB3BDD21707C5C0075949D /* UIView+Position.swift */,
+				D6DB3BDE21707C5C0075949D /* UIScrollView+Empty.swift */,
+				D6DB3BDF21707C5C0075949D /* HDEmptyBaseView.swift */,
+			);
+			path = HDEmptyView;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -243,13 +243,16 @@
 				TargetAttributes = {
 					D66DF97820AEA97700EAD4B7 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1000;
 					};
 					D66DF98C20AEA97800EAD4B7 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1000;
 						TestTargetID = D66DF97820AEA97700EAD4B7;
 					};
 					D66DF99720AEA97800EAD4B7 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1000;
 						TestTargetID = D66DF97820AEA97700EAD4B7;
 					};
 				};
@@ -307,16 +310,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D66DF9B220AEB57500EAD4B7 /* HDEmptyView.swift in Sources */,
+				D6DB3BE021707C5C0075949D /* HDEmptyView.swift in Sources */,
+				D6DB3BE421707C5C0075949D /* HDEmptyBaseView.swift in Sources */,
+				D6DB3BE221707C5C0075949D /* UIView+Position.swift in Sources */,
 				D6F8645120B6A6C0006B861D /* CollectionVC.swift in Sources */,
+				D6DB3BE321707C5C0075949D /* UIScrollView+Empty.swift in Sources */,
+				D6DB3BE121707C5C0075949D /* HDRunTime.swift in Sources */,
 				D66DF97F20AEA97700EAD4B7 /* ViewController.swift in Sources */,
 				D67AF5A020BBA929002DAB12 /* WebViewController.swift in Sources */,
-				D66DF9AE20AEB13800EAD4B7 /* UIScrollView+Empty.swift in Sources */,
 				D6F8644F20B69B18006B861D /* TableViewController.swift in Sources */,
-				D66DF9B020AEB53B00EAD4B7 /* HDEmptyBaseView.swift in Sources */,
 				D66B8C2020BD1C6600AAC2BE /* MyEmptyView.swift in Sources */,
-				D66776EA20B68FDC00338D47 /* HDRunTime.swift in Sources */,
-				D66DF9AC20AEB03000EAD4B7 /* UIView+Position.swift in Sources */,
 				D66DF97D20AEA97700EAD4B7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -493,14 +496,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B5K9YR6DRJ;
 				INFOPLIST_FILE = HDEmptyViewDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hengdawb.HDEmptyViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -512,14 +515,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B5K9YR6DRJ;
 				INFOPLIST_FILE = HDEmptyViewDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hengdawb.HDEmptyViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -539,7 +542,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hengdawb.HDEmptyViewDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HDEmptyViewDemo.app/HDEmptyViewDemo";
 			};
@@ -560,7 +563,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hengdawb.HDEmptyViewDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HDEmptyViewDemo.app/HDEmptyViewDemo";
 			};
@@ -580,7 +583,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hengdawb.HDEmptyViewDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = HDEmptyViewDemo;
 			};
@@ -600,7 +603,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hengdawb.HDEmptyViewDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = HDEmptyViewDemo;
 			};

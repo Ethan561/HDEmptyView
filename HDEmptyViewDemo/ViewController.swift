@@ -30,8 +30,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "HDEmptyViewDemo"
-        myScrollView.frame = CGRect.init(x: 0, y: 0, width: view.width, height: view.height)
-        myScrollView.contentSize = CGSize.init(width: view.width, height: view.height*2)
+        myScrollView.frame = CGRect.init(x: 0, y: 0, width: view.ly_width, height: view.ly_height)
+        myScrollView.contentSize = CGSize.init(width: view.ly_width, height: view.ly_height*2)
         myScrollView.backgroundColor = .gray
         
 //        view.addSubview(myScrollView)

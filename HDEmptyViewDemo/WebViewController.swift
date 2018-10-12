@@ -65,7 +65,7 @@ class WebViewController: UIViewController,WKNavigationDelegate {
     //MARK: ---------- 初始化progressView ----------
     func initProgressView() {
         
-        self.progressView = UIProgressView(progressViewStyle: UIProgressViewStyle.bar)
+        self.progressView = UIProgressView(progressViewStyle: UIProgressView.Style.bar)
         self.progressView.frame = CGRect(x: 0, y:CGFloat(kTopHeight) , width: self.view.bounds.width, height: 5.0)
         self.view.addSubview(self.progressView)
         self.progressView.isHidden = true
@@ -81,7 +81,7 @@ class WebViewController: UIViewController,WKNavigationDelegate {
     //MARK: ----  observeValue ---
     override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
         if keyPath == "estimatedProgress" {
-            if object as! NSObject == self.webView {
+            if object as? NSObject == self.webView {
                 print(self.webView.estimatedProgress)
                 if self.webView.estimatedProgress > 0.2 {
                     self.progressView.setProgress(Float(self.webView.estimatedProgress), animated: true)
@@ -89,7 +89,7 @@ class WebViewController: UIViewController,WKNavigationDelegate {
             }
             if self.webView.estimatedProgress >= 1.0 {
                 self.progressView.setProgress(0.99999, animated: true)
-                UIView.animate(withDuration: 0.3, delay: 0.3, options: UIViewAnimationOptions.autoreverse, animations: {
+                UIView.animate(withDuration: 0.3, delay: 0.3, options: UIView.AnimationOptions.autoreverse, animations: {
                     self.progressView.isHidden = true
                     self.progressView.setProgress(0.0, animated: false)
                 }, completion: nil)

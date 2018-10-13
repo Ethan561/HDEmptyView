@@ -1,6 +1,0 @@
-framework module HDEmptyView {
-  umbrella header "HDEmptyView-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -1,0 +1,6 @@
+framework module Pods_HDEmptyView_Tests {
+  umbrella header "Pods-HDEmptyView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

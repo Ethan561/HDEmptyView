@@ -1,0 +1,22 @@
+{
+  "name": "HDEmptyView",
+  "version": "0.1.0",
+  "summary": "A short description of HDEmptyView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/EricJoin/HDEmptyView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "EricJoin": "liuyi5683@163.com"
+  },
+  "source": {
+    "git": "https://github.com/EricJoin/HDEmptyView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HDEmptyView/Classes/**/*"
+}
